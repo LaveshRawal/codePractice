@@ -1,0 +1,3 @@
+npx json-server -p 3500 -w data/db.json
+
+keep folder out of any forder in public location like src folder

@@ -1,0 +1,73 @@
+<html>
+
+  <head>
+
+    <title>Survey Form</title>
+
+      <link rel="stylesheet" type="text/css" href="../Registration Form/styles.css" />
+
+      </head>
+
+      <body>
+
+      <header>
+
+        <h1 id="title">Survey Form</h1>
+
+        <p id="description"><em>Kindly give us your best opinion</em></p>
+
+      </header>
+
+<form id="survey-form" class="survey-form">
+
+  <fieldset>
+
+    <label id="name-label">Name: <input id="name" type="text"name="name" placeholder="Enter your full name" required/></label>
+
+    <label id="email-label">Email: <input id="email" type="email" name="email" placeholder="Enter your email address" required/></label>
+
+    <label id="number-label">Number: <input id="number" type="number" name="number" min="11" max="14" placeholder="Enter your phone number" required/></label>
+
+    </fieldset>
+
+  <fieldset>What do you like most about our product?
+
+    <select id="dropdown" name="dropdown">
+
+      <option value="">(select one)</option>
+
+      <option value="1">product packaging</option>
+
+      <option value="2">fast cooking time</option>
+
+    </select>
+
+    </fieldset>
+
+  <fieldset>Would you recommend our product to someone else?
+
+    <label><input type="radio" name="referral" class="inline" value="referral"/>Yes</label>
+
+  <label><input type="radio" name="referral" class="inline" value="referral"/>No</label></fieldset>
+
+  <fieldset>What would you like us to improve on? (check all that apply)
+
+  <label><input type="checkbox" value="suggest" name="price" class="inline">Price of product</label>
+
+  <label><input type="checkbox" value="checboxes" name="delivery" class="inline">Delivery time</label>
+
+  <label><input type="checkbox" value="checkboxes" name="packaging" class="inline">Product packaging</label>
+
+  <label><input type="checkbox" value="checkboxes" name="customer service" class="inline">Customer service</label></fieldset>
+
+  <fieldset>
+
+       <label>Additional Comment: <textarea rows="3" cols="30" name="textarea"></textarea></label>
+
+  <button id="submit" type="submit" value="Submit">Submit</button>
+
+  </form>
+
+  </body>
+
+  </html>
